@@ -1,6 +1,7 @@
 fail = open("viga.txt", encoding="UTF-8")
 lause = fail.read()
 lause = lause.replace(" et " , " , et ")
+lause = lause.replace(" aga " , " , aga " )
 print(lause)
 fail.close()
 fail2 = open("par.txt", "w", encoding= "UTF-8")
